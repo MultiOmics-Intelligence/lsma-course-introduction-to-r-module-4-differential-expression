@@ -1,0 +1,14 @@
+# Program:featureCounts v2.0.6; Command:"featureCounts" "-p" "--countReadPairs" "-t" "exon" "-g" "gene_id" "-a" "data/practice_genes.gtf" "-o" "counts/practice_counts.txt" "aligned/ctrl_1.bam" "aligned/ctrl_2.bam" "aligned/treat_1.bam" "aligned/treat_2.bam" 
+Geneid	Chr	Start	End	Strand	Length	aligned/ctrl_1.bam	aligned/ctrl_2.bam	aligned/treat_1.bam	aligned/treat_2.bam
+PRG001	chrP	1500	2743	+	1244	234	366	251	158
+PRG002	chrP	4897	6926	-	2030	1047	1674	1193	941
+PRG003	chrP;chrP	9474;10657	10305;11709	+;+	1885	653	845	1800	1393
+PRG004	chrP	13666	15805	+	2140	192	156	358	277
+PRG005	chrP	18166	20338	-	2173	3161	3945	2461	2545
+PRG006	chrP	22959	24964	+	2006	295	373	216	175
+PRG007	chrP;chrP	27665;28812	28390;29413	+;+	1328	344	796	102	105
+PRG008	chrP	32170	33335	-	1166	47	80	25	26
+PRG009	chrP	35061	36649	+	1589	384	442	370	310
+PRG010	chrP;chrP	38349;39384	39079;40401	+;+	1749	2287	1995	2984	2322
+PRG011	chrP	43304	45308	-	2005	335	300	218	239
+PRG012	chrP	48199	49842	+	1644	19	27	22	9
